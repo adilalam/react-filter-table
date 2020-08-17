@@ -1,0 +1,34 @@
+{
+  "name": "react-filter-table",
+  "version": "1.0.0",
+  "description": "filter data using table with pagination",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilalam/react-filter-table.git"
+  },
+  "keywords": [
+    "filter",
+    "pagination"
+  ],
+  "author": "adilalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilalam/react-filter-table/issues"
+  },
+  "homepage": "https://github.com/adilalam/react-filter-table#readme",
+  "devDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "clsx": "^1.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  }
+}
