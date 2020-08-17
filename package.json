@@ -1,10 +1,10 @@
 {
-  "name": "react-filter-table",
+  "name": "react-filter-and-pagination-table",
   "version": "1.0.0",
   "description": "filter data using table with pagination",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,11 @@
     "clsx": "^1.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "raw-loader": "^4.0.1"
   }
 }
