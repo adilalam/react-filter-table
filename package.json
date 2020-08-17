@@ -1,8 +1,8 @@
 {
   "name": "react-filter-and-pagination-table",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "filter data using table with pagination",
-  "main": "dist/index.js",
+  "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -20,20 +20,26 @@
     "url": "https://github.com/adilalam/react-filter-table/issues"
   },
   "homepage": "https://github.com/adilalam/react-filter-table#readme",
-  "devDependencies": {
+  "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "clsx": "^1.1.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "react-dom": "^16.13.1"
   },
-  "dependencies": {
-    "raw-loader": "^4.0.1"
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }

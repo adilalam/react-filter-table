@@ -1,15 +1,23 @@
-const path = require('path');
+var path = require("path");
 
 module.exports = {
-  mode: 'production',
-  entry: './index.js',
+  mode: "production",
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js'
+    path: path.resolve("build"),
+    filename: "index.js",
+    libraryTarget: "commonjs2"
   },
   module: {
     rules: [
-      { test: /\.js$/, use: 'raw-loader' }
+      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      {
+        test: /\.css$/,
+        loader: "style-loader!css-loader"
+      }
     ]
+  },
+  externals: {
+    react: "react"
   }
 };
