@@ -1,8 +1,8 @@
 {
   "name": "react-filter-and-pagination-table",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "filter data using table with pagination",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "webpack"
   },
