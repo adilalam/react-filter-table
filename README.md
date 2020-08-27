@@ -63,7 +63,7 @@ export default App;
 
 Common props you may want to specify include:
 
-- `rows` - rows as prosa(Array)
+- `rows` - rows as props (in Array)
 
 # Thanks
 
