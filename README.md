@@ -1,5 +1,7 @@
 # filter react table with pagination
 
+[See Demo](https://react-table-filter-demo.netlify.app/)
+
 Features include:
 
 - Flexible approach to data, with customisable functions
@@ -13,7 +15,11 @@ Features include:
 The easiest way to use react-select is to install it from npm and build it into your app with Webpack.
 
 ```
-yarn add react-select
+yarn add react-filter-and-pagination-table
+```
+
+```
+npm i react-filter-and-pagination-table
 ```
 
 Then use it in your app:
